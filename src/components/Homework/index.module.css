@@ -1,0 +1,61 @@
+.boxa {
+  /* background-color: blueviolet; */
+  position: relative;
+  top: 80px;
+  left: 313px;
+  width: 706px;
+  height: 334px;
+}
+.a2 {
+  font-size: 16px !important;
+}
+.a2 label {
+  font-size: 16px !important;
+}
+
+.a2 label::after {
+  margin-left: 3px !important;
+  font-size: 14px;
+}
+.a1 span {
+  border-radius: 0 !important;
+}
+
+.a3 {
+  font-size: 16px !important;
+  padding-left: 33px;
+}
+.a3 label:first-child {
+  font-size: 16px !important;
+}
+
+.a3 .ant-form-item-control {
+  padding-right: 100px !important;
+}
+
+.a3 label::after {
+  margin-left: 3px !important;
+  font-size: 14px;
+}
+
+.qwer {
+  width: 56px;
+  height: 26px;
+  background-color: #26bd6b;
+  margin-left: 25px;
+}
+
+.qwer div {
+  width: 22px !important;
+  height: 22px !important;
+  top: 2px !important;
+  border-radius: 10px;
+}
+
+.qwer div::before {
+  border-radius: 12px;
+}
+
+.boxa :global(.ant-switch-checked .ant-switch-handle) {
+  left: 32px;
+}
